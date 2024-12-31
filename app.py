@@ -27,8 +27,8 @@ def generate_explanation(img_path, model_prediction, confidence):
     In your response:
      - Explain what regions of the brain the model is focusing on, based on the saliency map. Refer to the regions highlighted in light cyan, those are the regions where the model is focusing on.
      - Explain possible reasons why the model made the prediction it did.
-     - Provide any additional insights or observations based on the saliency map.
      - Use medical terminology and be as detailed as possible.
+     - Keep your response concise and to the point.
     """
     print(prompt)
     img = PIL.Image.open(img_path)
