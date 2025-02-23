@@ -27,7 +27,8 @@ def generate_explanation(img_path, model_prediction, confidence):
     In your response:
      - Refer to the regions highlighted in light cyan, those are the regions where the model is focusing on.
      - Use medical terminology and be as detailed as possible.
-     - Focus on the insight derived from the saliency map, rather than describing it.
+     - Focus on the insight derived from the saliency map rather than describing it.
+     - Use your own critical reasoning as an expert neuroscientist instead of focusing on what the model is doing.
      - Keep your response concise and to the point.
      - Use a step by step approach with your reasoning.
     """
