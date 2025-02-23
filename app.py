@@ -139,9 +139,9 @@ if uploaded_file is not None:
     cv2.imwrite(saliency_map_path, cv2.cvtColor(superimposed_img, cv2.COLOR_RGB2BGR))
     col1, col2 = st.columns(2)
     with col1:
-        st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
+        st.image(uploaded_file, caption='Uploaded Image', use_container_width=True)
     with col2:
-        st.image(superimposed_img, caption='Saliency Map', use_column_width=True)
+        st.image(superimposed_img, caption='Saliency Map', use_container_width=True)
     # Display the result
     st.write("## Classification Results")
     # Create a visually distinct section
