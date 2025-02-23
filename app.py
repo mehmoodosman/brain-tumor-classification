@@ -26,9 +26,9 @@ def generate_explanation(img_path, model_prediction, confidence):
     The machine learning model predicted the image to of class "{model_prediction}" with a confidence of {confidence * 100}%.
     In your response:
      - Explain what regions of the brain the model is focusing on, based on the saliency map. Refer to the regions highlighted in light cyan, those are the regions where the model is focusing on.
-     - Explain possible reasons why the model made the prediction it did.
      - Use medical terminology and be as detailed as possible.
      - Keep your response concise and to the point.
+     - Use a step by step approach with your reasoning.
     """
     print(prompt)
     img = PIL.Image.open(img_path)
